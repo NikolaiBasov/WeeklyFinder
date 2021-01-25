@@ -82,7 +82,7 @@
                                     <constraint firstAttribute="height" constant="82" id="buN-Ar-Nwy"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="207" id="rut-NG-Cgd"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="32"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -124,7 +124,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="99.776785714285708"/>
+            <point key="canvasLocation" x="-159" y="13"/>
         </scene>
     </scenes>
     <resources>
