@@ -1,0 +1,2 @@
+# WeeklyFinder
+Remember the day!
