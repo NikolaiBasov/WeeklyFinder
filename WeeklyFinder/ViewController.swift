@@ -14,7 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var yearTF: UITextField!
     @IBOutlet weak var resultLable: UILabel!
     
-    @IBAction func findDay(_ sender: UIButton) {
+    @IBAction func findDayTap(_ sender: UIButton) {
+        sender.findDay()
         guard let day = dateTF.text,
               let month = monthTF.text,
               let year = yearTF.text else { return }

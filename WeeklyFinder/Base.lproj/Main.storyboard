@@ -97,7 +97,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="findDay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kcm-fO-ybv"/>
+                                    <action selector="findDayTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="65w-au-AaE"/>
                                 </connections>
                             </button>
                         </subviews>
