@@ -11,11 +11,11 @@ class ViewController: UIViewController {
 
     //MARK: - IBOutlet
 
-    @IBOutlet weak var dateTF: UITextField!
-    @IBOutlet weak var monthTF: UITextField!
-    @IBOutlet weak var yearTF: UITextField!
-    @IBOutlet weak var resultLable: UILabel!
-    @IBOutlet weak var findDayButton: UIButton!
+    @IBOutlet private weak var dateTF: UITextField!
+    @IBOutlet private weak var monthTF: UITextField!
+    @IBOutlet private weak var yearTF: UITextField!
+    @IBOutlet private weak var resultLabel: UILabel!
+    @IBOutlet private weak var findDayButton: UIButton!
 
     //MARK: - View Lifecycle
     
@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         guard let date = calendar.date(from: dateComponents) else { return }
         let weekday = dateFormatter.string(from: date)
         let capitalazedWeekday = weekday.capitalized
-        resultLable.text = capitalazedWeekday
+        resultLabel.text = capitalazedWeekday
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

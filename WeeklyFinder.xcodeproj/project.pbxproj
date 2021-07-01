@@ -61,12 +61,26 @@
 				76CF55F125A8FFE900FC6431 /* AppDelegate.swift */,
 				76CF55F325A8FFE900FC6431 /* SceneDelegate.swift */,
 				76F5E5FB2631819200D38AC6 /* Helpers */,
-				76F5E5FA2631816200D38AC6 /* Modal */,
-				76F5E5F92631815200D38AC6 /* Veiw */,
+				76DE3E88268DCA0000FD2F90 /* Model */,
+				76DE3E89268DCA0B00FD2F90 /* View */,
 				76F5E5F82631812E00D38AC6 /* Controller */,
 				76F5E5FC263181A700D38AC6 /* Support Files */,
 			);
 			path = WeeklyFinder;
+			sourceTree = "<group>";
+		};
+		76DE3E88268DCA0000FD2F90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76DE3E89268DCA0B00FD2F90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		76F5E5F82631812E00D38AC6 /* Controller */ = {
@@ -76,20 +90,6 @@
 				76CF55F525A8FFE900FC6431 /* ViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		76F5E5F92631815200D38AC6 /* Veiw */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Veiw;
-			sourceTree = "<group>";
-		};
-		76F5E5FA2631816200D38AC6 /* Modal */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Modal;
 			sourceTree = "<group>";
 		};
 		76F5E5FB2631819200D38AC6 /* Helpers */ = {
